@@ -69,6 +69,7 @@ section {
     .titulo{
         font-size: 16px;
         width: 100%;
+        font-size: 100%;
     }
 }
 @media (max-width: 858px){
@@ -86,9 +87,9 @@ section {
         transition: all .5s;
     }
     .titulo{
-        position: fixed;
-        width: 100%;
-        left: auto;
+        width: 100%; 
+        font-size: 100%;
+        height: auto;
     }
     nav ul li{
         display: block;
