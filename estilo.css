@@ -99,13 +99,10 @@ section {
 }
 .titulo {
     font-size: 100px;
-    
     background-color: rgba(0, 132, 247, 0.785);
     text-shadow: 50px, 50px, 50px;
     display: flex;
     color: rgb(255, 0, 0);
     border-radius: 50px;
     justify-content: center;
-
-
 }
