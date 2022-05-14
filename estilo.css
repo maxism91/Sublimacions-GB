@@ -38,7 +38,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 li a.active, li a:hover {
-    background-color: rgb(69, 2, 89);
+    background-color: rgb(153, 11, 255);
     transition: .5s;
 }
 .checkbtn {
@@ -91,7 +91,7 @@ section {
     }
     li a:hover, li a.active{
         background: none;
-        color: rgba(255, 0, 0, 0.339);
+        color: rgb(255, 42, 42);
     }
     #check:checked ~ ul{
         left: 0;
@@ -99,10 +99,11 @@ section {
 }
 .titulo {
     font-size: 100px;
-    background-color: rgba(0, 132, 247, 0.785);
-    text-shadow: 50px, 50px, 50px;
-    display: flex;
-    color: rgb(255, 0, 0);
-    border-radius: 50px;
-    justify-content: center;
+    background-color: rgba(2, 3, 4, 0.462);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    display: block;
+    text-shadow: 3px 3px 5px rgb(8, 0, 242);
+    padding: 30px;
+    padding-left: 490px;
 }
