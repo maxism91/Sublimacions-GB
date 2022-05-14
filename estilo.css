@@ -54,7 +54,7 @@ li a.active, li a:hover {
     display: none;
 }
 section {
-    background: url(fondo2.jpeg) no-repeat;
+    background: url(logo4.jpeg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80px);
@@ -99,10 +99,13 @@ section {
 }
 .titulo {
     font-size: 100px;
-    font-weight: 20px;
+    
     background-color: rgba(0, 132, 247, 0.785);
     text-shadow: 50px, 50px, 50px;
-    display: inline-block;
+    display: flex;
     color: rgb(255, 0, 0);
     border-radius: 50px;
+    justify-content: center;
+
+
 }
