@@ -59,9 +59,9 @@ section {
     background-position: center center;
     height: calc(100vh - 80px);
 }
-@media (max-width: 1011px){
+@media (max-width: 952px){
     .enlace{
-        padding-left: 35px;
+        padding-left: 20px;
     }
     nav ul li a{
         font-size: 16px;
@@ -72,7 +72,7 @@ section {
         font-size: 100%;
     }
 }
-@media (max-width: 858px){
+@media (max-width: 558px){
     .checkbtn{
         display: block;
     }
@@ -114,8 +114,7 @@ section {
     font-family: sans-serif;
     text-shadow: 3px 3px 5px rgb(8, 0, 242);
     padding: 30px;
-    display: inline-block;
     text-align: center;
-    font-size: 300%;
+    font-size: 300%; 
    
 }
